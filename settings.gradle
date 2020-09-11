@@ -1,2 +1,3 @@
 rootProject.name='JustDoIt'
 include ':app'
+include ':unit_test'
