@@ -1,6 +1,4 @@
-package com.juice.unit_test
-
-import org.junit.Test
+package com.juice.kotlin_test
 
 /**
  * @author juice
@@ -8,11 +6,14 @@ import org.junit.Test
  */
 class ClassAndInheritance {
 
-    @Test
-    fun main() {
+    companion object {
 
-        println("Constructing Derived (\"hello,world\")")//1
-        val d = Derived("hello", "world")
+        @JvmStatic
+        fun main(args: Array<String>) {
+
+            println("Constructing Derived (\"hello,world\")")//1
+            val d = Derived("hello", "world")
+        }
     }
 }
 
