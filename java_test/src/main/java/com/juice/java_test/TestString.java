@@ -1,5 +1,9 @@
 package com.juice.java_test;
 
+/**
+ * @author juice
+ * @desc String 知识点
+ */
 public class TestString {
 
     public static void main(String[] args) {

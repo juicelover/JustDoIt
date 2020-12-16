@@ -18,7 +18,7 @@ class TestString {
 
         private fun testEquals(a: String, b: String) {
 
-            println("\"$a\".equals(\"$b\") = " + (a == b))
+//            println("\"$a\".equals(\"$b\") = " + (a == b))
             println("\"$a\".equalsIgnoreCase(\"$b\") = " + a.equals(b, ignoreCase = true))
         }
     }
